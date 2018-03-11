@@ -1,6 +1,6 @@
 export const USER = {
-  firstName: 'srinivas',
-  lastName: 'Kasirivnei',
+  firstName: 'Sindhuja',
+  lastName: 'Narapareddy',
 };
 
 export const COMMENT = {

@@ -1,17 +1,18 @@
 import React from 'react';
-import { USER as user } from './const';
+import { USER, COMMENT } from './const';
 
 function formatName(user) {
+  console.log(COMMENT);
   return `${user.firstName} ${user.lastName}`;
 }
 
- const imgurl ="https://picsum.photos/200/300/?random"
- const name="&"
+const imgurl = 'https://picsum.photos/200/300/?random';
+const name = '&';
 
 const Element = () => (
   <div>
   <h1>
-    Hello, {formatName(user)}!
+    Hello, {formatName(USER)}!
   </h1>
     <div className="heello" tabIndex="0">hello</div>
     <img src={imgurl} />
